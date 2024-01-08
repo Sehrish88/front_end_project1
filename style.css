@@ -1,0 +1,16 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik+Maps&display=swap');
+
+  *{
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Roboto Condensed', Georgia, 'Times New Roman', Times, serif ;
+    display: flex; /*center everything*/
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; /* no scroll bars to be shown by defaulth */
+    margin: 0; /* get rid of margin*/ 
+  }
