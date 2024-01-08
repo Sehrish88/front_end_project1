@@ -7,10 +7,20 @@
   body {
     font-family: 'Roboto Condensed', Georgia, 'Times New Roman', Times, serif ;
     display: flex; /*center everything*/
-    flex-direction: column; 
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden; /* no scroll bars to be shown by defaulth */
     margin: 0; /* get rid of margin*/ 
+  }
+
+  .container {
+    display: flex;
+    width: 90vw;
+
+  }
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
